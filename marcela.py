@@ -1,5 +1,5 @@
-nota1 = 10.0
-nota2 = 10.0
-nota3 = 10.0
+nota1 = float(input("insira nota 1 "))
+nota2 = float(input("insira nota 2 "))
+nota3 = float(input("insira nota 3 "))
 media = (nota1 + nota2 + nota3)/3
-print ('Sua média é', media)
+print("sua média é" , media)
